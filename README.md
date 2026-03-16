@@ -1,15 +1,3 @@
-### Como usar este código:
-
-1. No VS Code, clique com o botão direito na área vazia da barra lateral esquerda (onde estão os seus arquivos) e selecione **"New File"** (Novo Arquivo).
-2. Dê o nome exato de `README.md` (com letras maiúsculas).
-3. Copie o bloco de código abaixo e cole dentro desse arquivo.
-4. Salve, faça o `git add .`, o `git commit -m "Adiciona README"` e o `git push origin main`, exatamente como você aprendeu!
-
----
-
-Copie a partir da linha abaixo:
-
-```markdown
 # 🌡️ Modelagem e Simulação de Controle de Temperatura em Processos Industriais
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -53,43 +41,20 @@ Se você deseja rodar a simulação interativa localmente, siga os passos abaixo
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/SEU_USUARIO/NOME_DO_SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/NOME_DO_SEU_REPOSITORIO.git)
+Navegue até a pasta do projeto:
 
-```
-
-2. **Navegue até a pasta do projeto:**
-```bash
+Bash
 cd NOME_DO_SEU_REPOSITORIO
-
-```
-
-
-3. **Instale as dependências necessárias:**
+Instale as dependências necessárias:
 Recomenda-se o uso de um ambiente virtual. As principais bibliotecas necessárias são:
-```bash
+
+Bash
 pip install numpy scipy matplotlib plotly ipywidgets control jupyter
+Abra o Jupyter Notebook:
 
-```
-
-
-4. **Abra o Jupyter Notebook:**
-```bash
+Bash
 jupyter notebook
+Execute o arquivo 00_Introdução.ipynb e interaja com os gráficos!
 
-```
-
-
-5. Execute o arquivo `00_Introdução.ipynb` e interaja com os gráficos!
-
----
-
-## 📸 Demonstração Visual
-
-*(Substitua este texto por um GIF ou uma imagem do seu gráfico interativo do Plotly funcionando. Mostre o painel do ipywidgets! Isso faz toda a diferença no portfólio.)*
-
----
-
-## 👨‍💻 Autor
-
-Desenvolvido por **Bruno Richwicki**.
-
-```
+👨‍💻 Autor
+Desenvolvido por Bruno Richwicki.
